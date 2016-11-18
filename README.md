@@ -64,5 +64,3 @@
 <pre>mTiemTimeCount = new TimeCount(60000, 1000);可以自己更改时间</pre> 
 <p>代码简单可直接使用</p> 
 
-                    </div>
-                            </div>
