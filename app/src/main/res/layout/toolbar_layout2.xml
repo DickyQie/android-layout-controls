@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:fitsSystemWindows="true"
+        android:clipToPadding="true"
+        android:text="自定义的ToolBar布局"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF00"
+        android:text="主布局"
+        android:textSize="22sp"
+        android:gravity="center"
+        />
+</LinearLayout>
+
+
+    <!--
+1.api>=19
+   android:fitsSystemWindows="true"
+   android:clipToPadding="true"
+  在那个父容器控件上，状态栏颜色即为父容器的背景色；
+  在top_layout(第一个布局)上，即状态栏和头部布局一致
+-->
