@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhangqie.statusbar.MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义颜色状态栏"
+        android:textColor="@color/colorAccent"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:text="背景图片做状态栏"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/button"
+        android:textSize="19sp"
+        />
+
+</LinearLayout>
